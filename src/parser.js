@@ -50,7 +50,7 @@ module.exports = (xmlPath, distPath) => {
 
             key.subitems.push(obj)
 
-            if (params.elements && param.elements.length > 0) {
+            if (param.elements) {
               obj.subitems = []
               repeat(param.elements, obj)
             }
