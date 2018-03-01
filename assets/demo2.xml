@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+	<page id="app">
+		<scripts>
+			<script src="lua/controller/homeController.lua" />
+			<script src="lua/common/common.res.lua" />
+			<script src="lua/common/common.lua" />
+		</scripts>
+		<layout paddingTop="0" paddingBottom="0" overflow="hidden" fullScreen="false" backgroundColor="#ffffff"></layout>
+	</page>
+</manifest>

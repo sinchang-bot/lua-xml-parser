@@ -1,0 +1,1 @@
+{"schema":"v1","id":"app","scripts":[{"src":"lua/controller/homeController.lua"},{"src":"lua/common/common.res.lua"},{"src":"lua/common/common.lua"}],"layout":{"qName":"view","paddingTop":"0","paddingBottom":"0","overflow":"hidden","fullScreen":"false","backgroundColor":"#ffffff"}}

@@ -1,0 +1,21 @@
+{
+  "name": "lua-xml-parser",
+  "version": "0.0.1",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "keywords": [],
+  "lua": {
+    "src": ["assets/demo1.xml", "assets/demo2.xml"],
+    "dist": "dist/"
+  },
+  "author": "sinchang <sinchangwen@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "read-pkg": "^3.0.0",
+    "watch": "^1.0.2",
+    "xml-js": "^1.6.2"
+  }
+}
