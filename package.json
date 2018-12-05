@@ -4,11 +4,14 @@
   "description": "",
   "main": "src/index.js",
   "scripts": {
-    "start": "node src/index.js"
+    "start": "node src/json2xml.js"
   },
   "keywords": [],
   "lua": {
-    "src": ["assets/demo1.xml", "assets/demo2.xml"],
+    "src": [
+      "assets/demo1.xml",
+      "assets/demo2.xml"
+    ],
     "dist": "dist/"
   },
   "author": "sinchang <sinchangwen@gmail.com>",

@@ -1,0 +1,91 @@
+{
+  "id": "home",
+  "schema": "v1",
+  "scripts": [
+    {
+      "src": "lua/controller/homeController.lua"
+    }
+  ],
+  "layout": {
+    "qName": "view",
+    "backgroundColor": "#EDEEF0",
+    "padding": "0 auto 0 auto",
+    "subitems": [
+      {
+        "qName": "image",
+        "src": "images/top_bg.png",
+        "scale": "fitWidth",
+        "margin": "0 0 auto 0"
+      },
+      {
+        "qName": "scrollview",
+        "margin": "0 0 0 0",
+        "id": "sv",
+        "subitems": [
+          {
+            "qName": "view",
+            "height": "44",
+            "id": "nav",
+            "marginTop": "20",
+            "subitems": [
+              {
+                "qName": "view",
+                "margin": "auto",
+                "subitems": [
+                  {
+                    "qName": "label",
+                    "id": "title",
+                    "fontSize": "16",
+                    "color": "#333333",
+                    "align": "center"
+                  }
+                ]
+              },
+              {
+                "qName": "view",
+                "marginLeft": "14",
+                "width": "30",
+                "subitems": [
+                  {
+                    "qName": "image",
+                    "src": "images/back.png",
+                    "width": "20",
+                    "margin": "12 auto auto auto",
+                    "scale": "fitWidth"
+                  },
+                  {
+                    "qName": "button",
+                    "id": "backBtn"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "qName": "view",
+            "marginTop": "83",
+            "id": "topTextBox",
+            "hidden": "true",
+            "margin": "0 8 0 8",
+            "backgroundImage": "images/top_text_bg.png",
+            "height": "46",
+            "overflow": "hidden",
+            "subitems": [
+              {
+                "qName": "label",
+                "id": "topText",
+                "color": "#333333",
+                "html": "true",
+                "fontSize": "13",
+                "align": "center",
+                "height": "46",
+                "marginTop": "16.5",
+                "verticalAlign": "top"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
